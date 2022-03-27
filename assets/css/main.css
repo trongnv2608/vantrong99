@@ -1,0 +1,556 @@
+.m-heading {
+    font-size: 15px;
+}
+
+.r-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.l-heading {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.a-heading {
+    font-size: 12px;
+    color: var(--white-color);
+    font-weight: 50;
+}
+
+.b-heading {
+    font-size: 20px;
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+.n-heading {
+    font-size: 20px;
+    color: #888888;
+    text-align: center;
+}
+
+
+/* Navbar */
+
+.header__navbar-icon {
+    padding: 5px;
+}
+
+.p-heading {
+    font-size: 12px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: #0c5d69;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.navbar-list {
+    padding: 0 15px;
+}
+
+.header__navbar-item {
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+
+/* AESTHETIC */
+
+.navigation-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.heading-logo {
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0;
+}
+
+.navigation-link a {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+.navigation-link :hover {
+    border-bottom: 2px solid #13a2b7;
+}
+
+.space-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navbar-icon {
+    font-size: 15px;
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    padding: 18px 40px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    font-size: 18px;
+    color: var(--black-color);
+    margin-left: 15px;
+    font-weight: bold;
+    border-color: #13a2b7;
+}
+
+.showcase {
+    position: relative;
+    background: url(../img/bac-si-nha-khoa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.showcase-lists {
+    text-align: center;
+}
+
+.list-demo {
+    display: inline-block;
+    margin: 0;
+    padding-left: 17px;
+    color: #13a2b7;
+    font-size: 15px;
+}
+
+.showcase .overflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+
+/* Section welcom to the aesthetic */
+
+.about-clinic {
+    padding: 30px 0
+}
+
+.welcom-text {
+    margin-left: 70px;
+}
+
+.Welcom-name {
+    margin: 10px 0;
+}
+
+.welcom-content {
+    margin: 20px 0px;
+}
+
+.welcom-item {
+    padding: 0 10px 0 0;
+}
+
+.welcom-list {
+    padding: 0;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.welcom-title {
+    padding: 0;
+}
+
+.about-heading {
+    font-size: 12px;
+    color: #888888;
+}
+
+.click {
+    display: inline-block;
+    outline: none;
+    padding: 18px 40px;
+    background-color: #13a2b7;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.welcom-title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/* <!-- WHY CHOOSE US --> */
+
+.offer {
+    padding: 40px 0;
+}
+
+.cangiua {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.offer-list {
+    text-align: center;
+    flex-wrap: no-wrap;
+    margin: 40px 0;
+}
+
+.title-name {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.offer-item {
+    padding: 0
+}
+
+.offer-icon {
+    font-size: 70px;
+}
+
+
+/* Happy clients */
+
+.card {
+    margin: 0 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f2f7f8;
+    margin: 60px 0;
+}
+
+.card-title {
+    margin: 10px 0;
+    display: flex;
+}
+
+.card-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-main {
+    background-color: var(--white-color);
+}
+
+.card-header-content {
+    display: flex;
+    align-items: center;
+}
+
+.card-header-content h3 {
+    padding: 0 15px;
+    margin: 0;
+}
+
+.card-content {
+    padding-top: 20px;
+}
+
+.catan {
+    margin: 10px 15px;
+}
+
+.card-icon {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #13a2b7;
+    border-radius: 50px;
+}
+
+.card-header-icon-start {
+    color: #d5ca14;
+    font-size: 10px;
+}
+
+
+/* Our Expert Doctors */
+
+.our {
+    padding: 40px 0;
+}
+
+.our-title {
+    text-align: center;
+    flex-wrap: no-wrap
+}
+
+.our-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    margin: 20px 0;
+}
+
+.list-item {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    border: 12px solid #eeeeee;
+}
+
+.list-item1 {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    border: 12px solid #13a2b7;
+}
+
+.list-item2 {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    border: 12px solid #eeeeee;
+}
+
+.list-icon {
+    display: flex;
+    list-style: none;
+    margin: 10px 118px;
+    padding: 0
+}
+
+.title {
+    font-size: 12px;
+    color: #13a2b7;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+.footer {
+    padding-top: 20px;
+    background-color: #121c1d;
+}
+
+.footer-first {
+    margin-bottom: 40px 0;
+}
+
+.footer-item {
+    align-items: center;
+    padding: 30px 0 0 20px;
+}
+
+.footer-title {
+    color: var(--white-color);
+    padding: 0;
+}
+
+.underline {
+    margin: 20px;
+}
+
+
+/* seach */
+
+.container-1 input#search {
+    width: 300px;
+    height: 50px;
+    background: #121c1d;
+    /* border: none; */
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 30px;
+    border-color: #13a2b7;
+}
+
+.container-1 {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 input#search:-moz-placeholder {
+    /* Firefox 18- */
+    color: #65737e;
+}
+
+.container-1 input#search::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #65737e;
+}
+
+.container-1 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 .icon {
+    justify-content: space-between;
+    color: #4f5b66;
+}
+
+
+/*  */
+
+.list-stt {
+    text-align: end;
+}
+
+.footer-item {
+    margin: 0;
+    padding: 30px 0 20px 0;
+}
+
+.footer-icon {
+    font-size: 10px;
+    padding: 10px;
+    color: var(--white-color);
+    background-color: #2a3334;
+    border-radius: 50px;
+}
+
+.company-list {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    height: 180px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-end {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #12191a;
+}
+
+.footer-list {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.footer-items {
+    margin: 0 10px;
+}
+
+
+/* slick */
+
+.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 30px);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    list-style: none;
+}
+
+.slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+    background-color: #666666;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
+.slick-dots .slick-active button {
+    background-color: #13a2b7;
+}
+
+.item {
+    position: relative;
+    background-color: #13a2b7;
+    border-radius: 4px;
+}
+
+
+/* ---- */
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-clinic {
+    margin: 100px 0;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    background: gray;
+}
+
+
+/* border cricle img */
+
+
+/* width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    border: 12px solid yellow; */
+
+
+/*
+    border icon 
+    font-size: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 50px; */
